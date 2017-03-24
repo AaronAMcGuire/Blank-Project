@@ -1,0 +1,28 @@
+{
+  "name": "blank-project",
+  "version": "1.0.0",
+  "description": "Basic grunt file generated for a blank project contains some basic tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronAMcGuire/Blank-Project.git"
+  },
+  "author": "Aaron McGuire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronAMcGuire/Blank-Project/issues"
+  },
+  "homepage": "https://github.com/AaronAMcGuire/Blank-Project#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html-validator": "^0.1.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-sass-compile-imports": "^0.2.2"
+  }
+}
