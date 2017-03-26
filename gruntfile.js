@@ -4,10 +4,7 @@ module.exports = function(grunt) {
   require('load-grunt-config')(grunt, {
     configPath: path.join(process.cwd(), 'grunt/config'),
     jitGrunt: {
-      customTasksDir: 'grunt/tasks',
-      staticMappings:{
-            sass: 'sass_compile_imports'
-        }
+      customTasksDir: 'grunt/tasks'
     },
     data: {
       foo: 'bar' // accessible with '<%= foo %>'

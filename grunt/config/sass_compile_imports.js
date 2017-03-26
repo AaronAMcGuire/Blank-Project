@@ -1,11 +1,11 @@
 module.exports = {
   sass_compile_imports: {
       compile: {
-          target: '../Styles/main.scss',
+          target: 'Styles/main.scss',
           files: [{
               expand: true,
-              cwd: '../Styles/Sass',
-              src: ['../**/*.scss']
+              cwd: 'Styles/Sass',
+              src: ['/**/*.scss']
           }]
       },
       options: {
