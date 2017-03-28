@@ -19,9 +19,11 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^2.0.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-html-validator": "^0.1.0",
+    "grunt-htmlcompressor": "^0.1.10",
     "grunt-sass": "^2.0.0",
     "grunt-sass-compile-imports": "^0.2.2",
     "jit-grunt": "^0.10.0",

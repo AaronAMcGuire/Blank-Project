@@ -3,13 +3,12 @@ module.exports = {
       dev: {
           bsFiles: {
               src: [
-                  'Styles/Sass/*.css',
+                  'dist/Styles/Sass/*.css',
                   '*.html'
               ]
           },
           options: {
-              watchTask: true,
-              server: './blank',
+              watchTask: false,
               proxy: "blank-project.dev"
           }
       }
