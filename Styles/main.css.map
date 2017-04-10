@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,CAAC,CACC,MAAM,CAAC,CAAC,CACR,OAAO,CAAC,CAAC,CACT,UAAU,CAAE,UAAU,CAExB,kBAAkB,CAChB,UAAU,CAAE,UAAU",
+"sources": ["Sass/2.Generic/_sitewide.scss"],
 "names": [],
 "file": "main.css"
 }
